@@ -17,7 +17,8 @@ F(b)-measure = (1 + b) * (precision * recall) / (b^2 * precision + recall)
   ex)
      F(2)-measure : Recall is more important
      F(0.5)-measure : Precision is more important
-         
+
+ROC 곡선 : 
 ##Multiclass Classification
 
 ##오류 분석
