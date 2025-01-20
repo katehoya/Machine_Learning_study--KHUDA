@@ -1,0 +1,27 @@
+##MNIST
+
+##이진 분류기
+
+##Model Evaluation
+#K-fold Cross Validation
+ - 불균형한 dataset일 때 편향된 결과가 나올 수 있음
+#Classifier의 성능을 평가하는 방법
+![Image](https://github.com/user-attachments/assets/a9ebca8b-5291-4d59-80f3-54a57a3de96f)
+1종 오류 : FP, 2종 오류 : FN
+         
+Recall(재현율) : TP/TP+FN
+Specificity(특이도) : TN/TN+FP
+Precision(정밀도) : TP/TP+FP
+F-measure = 2 * (precision * recall) / (precision + recall)
+F(b)-measure = (1 + b) * (precision * recall) / (b^2 * precision + recall)
+  ex)
+     F(2)-measure : Recall is more important
+     F(0.5)-measure : Precision is more important
+         
+##Multiclass Classification
+
+##오류 분석
+
+##Multilabel Classification
+
+##Multioutput classifiaction
