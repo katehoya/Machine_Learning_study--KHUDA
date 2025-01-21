@@ -1,11 +1,11 @@
-##MNIST
+## MNIST
 
-##이진 분류기
+## 이진 분류기
 
-##Model Evaluation
-#K-fold Cross Validation
+## Model Evaluation
+# K-fold Cross Validation
  - 불균형한 dataset일 때 편향된 결과가 나올 수 있음
-#Classifier의 성능을 평가하는 방법
+# Classifier의 성능을 평가하는 방법
 ![Image](https://github.com/user-attachments/assets/a9ebca8b-5291-4d59-80f3-54a57a3de96f)
 1종 오류 : FP, 2종 오류 : FN
          
@@ -19,10 +19,16 @@ F(b)-measure = (1 + b) * (precision * recall) / (b^2 * precision + recall)
      F(0.5)-measure : Precision is more important
 
 ROC 곡선 : 
-##Multiclass Classification
 
-##오류 분석
+## Multiclass Classification
+# OvO (one versus one) : n(n-1)/2만큼의 binary classifier 필요
 
-##Multilabel Classification
+# OvA (one versus all) : n개의 각 class에 대한 classifier 필요
 
-##Multioutput classifiaction
+
+## 오류 분석
+오차 행렬을 만들어서 -> 올바른 예측에 대한 가중치를 0으로 두면 어떤 오류를 범했는 지 더 가시적으로 볼 수 있다
+
+## Multilabel Classification
+
+## Multioutput classifiaction
